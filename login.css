@@ -1,0 +1,98 @@
+body{
+    background-image: url("Green-Design-Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    position: sticky;
+    margin: 0px;
+    padding-top: 20px;
+    display: flex;
+    height: 60px;
+    .navbar{
+        width: 50%;
+    }
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration: none;
+}
+.navbar ul a{
+    color: rgba(255, 255, 255, 0.674);
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar ul a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-container{
+    display: flex;
+    .text{
+        width: 170%;
+    }
+    .form{
+        width: 30%;
+        height: 400px;
+    }
+}
+.form{
+    background-color:rgb(81, 199, 81);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column ;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    box-shadow: 2px 5px 10px 10px;
+}
+.sign-in{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+.sign-in input{
+    padding: 10px 20px;
+    margin:5px 20px 0px;
+    background-color: rgb(81, 199, 81);
+    border-radius: 5px;
+    border: solid 1.5px rgb(147, 224, 147);
+}
+.sign-in label{
+    margin-top: 10px;
+    text-align: left;
+    position: relative;
+    left: 25px;
+}
+.text{
+    color: aliceblue;
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px 20px;
+    margin:5px 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.log-in{
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.sign-up{
+    background-color: rgb(58, 123, 58);
+    border: solid 1.5px rgb(166, 198, 166);
+
+}
+.sign-up:hover{
+    background-color: rgb(19, 138, 19);
+
+}

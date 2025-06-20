@@ -1,0 +1,218 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    background-image: linear-gradient(white);
+    margin: 0;
+
+    
+}
+ol{
+    list-style: none;
+}
+.title{
+    /* background-color: black; */
+    background-color: black;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.title h1{
+    font-size: 60px;
+    color: white;
+}
+.chapters{
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+}
+.chapters ul{
+    list-style-type:disc;
+}
+.mysimpleanim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.something{
+    display: flex;
+    height: 15vh;
+}
+.chap1h{
+   
+    display: flex;
+    /* background-color: rgba(255, 228, 196, 0.432); */
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
+.chap1{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+/* .notes1{
+    /* display: block; */
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 1px solid black; */
+
+.notes1 h3{
+    display: flex;
+    justify-content: center;
+}
+.notes1 p{
+    line-height: 30px;
+    margin-top:-20px;
+}
+/* .notes1 ul {
+    line-height: px;
+} */
+ .motiv{
+    display: flex;
+    /* background-color: aqua; */
+    height: 20vh;
+ }
+ /* .steve{
+    display: flex;
+    flex:1;
+    background-color: black;
+    background-image: ;
+ }
+ .edison{
+    display:flex;
+    flex:1;
+    background-color: red;
+    /* background-image: url(../images/thomas.jpeg); 
+    background-repeat: no-repeat;
+    
+ }
+    */
+ /*
+ .carnegie{
+    display:flex;
+    flex:1;
+    background-color: white;
+
+ } */
+ .chap2h{
+   
+    display: flex;
+    /* background-color: rgba(255, 228, 196, 0.432); */
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    /* color: green; */
+}
+.chap2{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    /* color: green; */
+}
+.notes2 p{
+    line-height: 30px;
+    margin-top:-20px;
+    margin-left: 0;
+}
+.notes2 h3{
+    display: flex;
+    justify-content: center;
+}
+.notes2 ol{
+    list-style-type:decimal;
+    /* margin-bottom: 10px; */
+}
+ul{
+    list-style-type: disc;
+}
+.chap3h{
+   
+    display: flex;
+    /* background-color: rgba(255, 228, 196, 0.432); */
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
+.chap3{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.notes3 h3{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin-left: 10px;
+}
+p{
+    margin-left: 8px;
+}
+.chap4{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.notes4 h3{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    transition: 1s;
+}
+.link a:hover{
+    text-decoration: underline;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+}
+.topchap{
+    display: flex;
+}
+.imgs{
+    /* background-color: blue; */
+    display:flex;
+    width: 50%;
+    flex: 1;
+    background-image:url(../images/entrepreneurs.jpeg) ;
+}
