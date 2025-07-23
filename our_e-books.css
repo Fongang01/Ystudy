@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+}
+nav{
+    position: sticky;
+    margin: 0px;
+    padding-top: 20px;
+    background-color: black;
+    display: flex;
+    height: 60px;
+
+    .logo{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .navbar{
+        width: 120%;
+    }    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.674);
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer{
+    position: relative;
+    color: aliceblue;
+    margin-top: 20px;
+    background-color: black;
+    height: 270px;
+}
+.phone img{
+    position: absolute;
+    top: 40px;
+    right: 690px;
+    height: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.footer li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+.footer a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+span{display: flex;
+    justify-content: center;
+
+}
+span img{
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
