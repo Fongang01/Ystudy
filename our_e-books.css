@@ -31,6 +31,70 @@ nav ul li a:hover{
     text-decoration: underline;
     color: white;
 }
+.books{
+    margin-left: 10px;
+}
+.book1{
+    display: flex;
+    margin-bottom: 40px;
+    .img1{
+        width: 30%;
+        margin-left: 70px;
+        padding-left: 0px;
+    }
+    .text1{
+        width: 70%;
+        margin-right: 70px;
+        margin-top: opx;
+    }
+}
+.book1{
+    display: flex;
+    margin-bottom: 40px;
+    .img2{
+        width: 30%;
+        margin-left: 130px;
+        padding-left: 0px;
+    }
+    .text2{
+        width: 70%;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+.img1 a{
+    color: black;
+}
+.img2 a{
+    color: black;
+}
+.img1 img{
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 2px;
+    transition: transform 2s;
+}
+.img1 img:hover{
+    transform: scale(1.1);
+}
+.img2 img{
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 2px;
+    transition: transform 2s;
+}
+.img2 img:hover{
+    transform: scale(1.1);
+}
+.text1 p{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.text2 p{
+    margin-top: 0px;
+    font-size: 20px;
+}
 footer{
     position: relative;
     color: aliceblue;
@@ -40,7 +104,7 @@ footer{
 }
 .phone img{
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 690px;
     height: 30px;
 }
